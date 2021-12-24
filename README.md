@@ -8,6 +8,8 @@
   | Network  |  Address  |
   | :---: | :---: |
   |  BEP20 |  0xb33141CF0F28f2bbaaeF5D6Ea037E7e3b56E0741 |
+  |  BTC |  1DzJxV6ydRemUshB9An3CvCiQ8rT7mrBcs |
+  |  ERC20 |  0xf39165af0bbc9b2d96b8b26010025c4b3373fa31  |
 </div>
 
 <p align="center">
