@@ -11,11 +11,12 @@
 (function() {
     function initiate() {
         window.stop();
-        fetch(`https://exchange.thetanarena.com/exchange/v1/currency/price/1`)
+        fetch("https://exchange.thetanarena.com/exchange/v1/currency/price/1")
             .then(res => res.json())
             .then(response => {
-            let price = response.data
-            localStorage.setItem('THC', price.toFixed(3));
+            let price = response.data.toFixed(3)
+            console.log("THC Price:", price)
+            localStorage.setItem('THC', price);
             override()
         });
     };
