@@ -24,5 +24,12 @@
 
 <p align="center">
     <img src="https://github.com/Felipefury/Thetan-Arena-Profit/blob/main/misc/preview.png?raw=true"/>
-    <img src="https://github.com/Felipefury/Thetan-Arena-Profit/blob/main/misc/preview.gif?raw=true"/>
 </p>
+
+## Installation
+
+- **YouTube Video Tutorial (Soon)**
+
+**1.** Install **[Tampermonkey!](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=pt)**, only Chrome for now.<br>
+**2.** Add the code **[repository](https://github.com/Felipefury/Thetan-Arena-Profit/raw/main/src/index.user.js)**<br>
+**!** Done, go to https://marketplace.thetanarena.com/ if appears, accept Tampermonkey permission.<br>
