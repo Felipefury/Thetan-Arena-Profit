@@ -17,3 +17,7 @@
         <img src="https://img.shields.io/discord/675323046680330261.svg?label=Discord&logo=discord" alt="Discord"/>
     </a>
 </p>
+
+<br>
+
+<h1 align="center">Thetan Arena Profit</h1>
