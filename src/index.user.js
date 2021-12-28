@@ -9,8 +9,23 @@
 // ==/UserScript==
 
 (function() {
-    function init() {
+    function initiate() {
         window.stop();
+        fetch(`https://exchange.thetanarena.com/exchange/v1/currency/price/1`)
+            .then(res => res.json())
+            .then(response => {
+            let price = response.data
+            localStorage.setItem('THC', price.toFixed(3));
+            override()
+        });
+    };
+    let interval = setInterval(() => {
+        if(window) {
+            initiate();
+            clearInterval(interval);
+        };
+    });
+    let override = function() {
         GM.xmlHttpRequest({
             headers: {
                 'Access-Control-Allow-Credentials' : true,
@@ -26,12 +41,7 @@
                 document.close();
             }
         });
-    };
-    let int = setInterval(() => {
-        if(window) {
-            init();
-            clearInterval(int);
-        };
-    });
+    }
+
     console.log("Donate to help the project,and I'll fix it if stop working. \n\nIf your window is blank or buggy, maybe the site has been updated and the extension won't work. \n\nDonate here: https://github.com/Felipefury/Thetan-Arena-Profit.")
 })();
