@@ -21,3 +21,8 @@
 <br>
 
 <h1 align="center">Thetan Arena Profit</h1>
+
+<p align="center">
+    <img style="width: 48%;" src="https://github.com/Felipefury/Thetan-Arena-Profit/blob/main/misc/preview.gif?raw=true"/>
+    <img style="width: 49%;" src="https://github.com/Felipefury/Thetan-Arena-Profit/blob/main/misc/preview.png?raw=true"/>
+</p>
