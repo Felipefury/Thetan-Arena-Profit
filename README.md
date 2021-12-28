@@ -32,4 +32,4 @@
 
 **1.** Install **[Tampermonkey!](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=pt)**, only Chrome for now.<br>
 **2.** Add the code **[repository](https://github.com/Felipefury/Thetan-Arena-Profit/raw/main/src/index.user.js)**<br>
-**!** Done, go to https://marketplace.thetanarena.com/ if appears, accept Tampermonkey permission.<br>
+**3.** Done, go to https://marketplace.thetanarena.com/ **if a permission appears, accept.**<br>
